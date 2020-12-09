@@ -167,7 +167,7 @@ public class BombermanController : CharacterController
                 }
                 break;
             case AnimState.WALK:
-                switch (_direction)
+                switch (direction)
                 {
                     case Direction.FORE:
                         return animNameWalkFore;

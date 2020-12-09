@@ -8,7 +8,8 @@ public enum Layer
 {
     BOMBERMAN = 8,
     BOMBPASS = 9,
-    BOMB = 10
+    BOMB = 10,
+    ENEMY = 12
 }
 public class BombBehaviour : MonoBehaviour
 {

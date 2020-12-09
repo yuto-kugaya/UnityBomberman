@@ -76,7 +76,11 @@ public class FieldController : MonoBehaviour
 
     }
 
-    
+    //ブロックがあるかどうかを返す
+    public bool IsBlock(Vector3Int position)
+    {
+        return (tilemapSoftBlock.GetTile(position) != null) || (tilemapHardBlock.GetTile(position) != null); 
+    }
 
     // Update is called once per frame
     void Update()
